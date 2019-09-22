@@ -1,4 +1,3 @@
-
 assigment tugas
 
 - Normalisasi
@@ -59,4 +58,4 @@ select booking.id_booking, package.package, package.prices, costumer.id_costumer
 inner join transaction on costumer.id_costumer = transaction.id_costumer 
 inner join package on package.id_package = transaction.id_package
 inner join booking on booking.id_booking = transaction.id_booking 
-where booking.booking_date <= booking.booking_date + interval '14 day' ;
+where booking.booking_date between now() and booking.booking_date + interval '14 day' ;
