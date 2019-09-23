@@ -6,7 +6,6 @@ public class NameFrindlist {
     public String nm;
     public NameFrindlist(String nm) {
         this.nm = nm;
-
     }
 
     public String setName(int i) {

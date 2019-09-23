@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f4843ea-96f7-4cc2-91ff-ce9d4a1db96f" name="Default Changelist" comment="" />
+    <list default="true" id="5f4843ea-96f7-4cc2-91ff-ce9d4a1db96f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exercise01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise05/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise01/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise01/src/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise05/src/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise05/src/Main2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise05/src/com/enigma/model/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise05/src/com/enigma/model/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise05/src/com/enigma/model/NameFrindlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise05/src/com/enigma/model/NameFrindlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise05/src/com/enigma/model/NameFrindlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise05/src/com/enigma/model/NameFrindlist.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +32,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1QzVS5tIk3o6B0CaO0ho35BEVzg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise01" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -44,5 +65,18 @@
       <updated>1568773408377</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

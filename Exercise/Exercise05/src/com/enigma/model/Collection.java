@@ -5,10 +5,8 @@ import java.util.Objects;
 public class Collection {
     public Integer r;
 
-
     public Collection(Integer r) {
         this.r =r;
-
     }
 
     public Integer getR() {
