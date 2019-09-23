@@ -47,7 +47,7 @@ where booking.flight_date <= current_date;
 
 //Total pembayaran yang sudah berangkat
 
-select sum(prices)  from costumer 
+select sum(prices) from costumer 
 inner join transaction on costumer.id_costumer = transaction.id_costumer 
 inner join package on package.id_package = transaction.id_package
 inner join booking on booking.id_booking = transaction.id_booking 
