@@ -1,13 +1,15 @@
 package com.enigma.model;
 
+import java.util.Date;
+
 public class Student {
 
     private Integer id;
     private  String name;
     private String birthPlace;
-    private String birthDate;
+    private Date birthDate;
     private  String gender;
-    public Student(Integer id, String name, String birthPlace, String birthDate, String gender) {
+    public Student(Integer id, String name, String birthPlace, Date birthDate, String gender) {
         this.id = id;
         this.name = name;
         this.birthPlace = birthPlace;
@@ -45,11 +47,11 @@ public class Student {
         this.birthPlace = birthPlace;
     }
 
-    public String getBirthDate() {
+    public Date getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(String birthDate) {
+    public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
 

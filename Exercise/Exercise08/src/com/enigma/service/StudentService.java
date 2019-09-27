@@ -32,7 +32,7 @@ public class StudentService {
             for (int i = 0; true; i++) {
                 if (resultSet.next()) {
                     System.out.println("-------------------------------------------");
-                    System.out.println(resultSet.getString("name") + " | " + resultSet.getString("birth_Place") +
+                    System.out.println(resultSet.getString("id") + " | "+resultSet.getString("name") + " | " + resultSet.getString("birth_Place") +
                             " | " + resultSet.getString("birth_Date") + " | " + resultSet.getString("gender"));
                     System.out.println("-------------------------------------------");
 
@@ -42,6 +42,7 @@ public class StudentService {
 //                            resultSet.getString("birth_date"),
 //                            resultSet.getString("gender"))
 //                    );
+
                 }else{
                     break;
                 }
@@ -63,7 +64,7 @@ public class StudentService {
                 student.add(new Student(resultSet.getInt("id"),
                         resultSet.getString("name"),
                         resultSet.getString("birth_place"),
-                        resultSet.getString("birth_date"),
+                        resultSet.getDate("birth_date"),
                         resultSet.getString("gender")));
 
             }else {
@@ -85,7 +86,7 @@ public class StudentService {
                 student.add(new Student(resultSet.getInt("id"),
                         resultSet.getString("name"),
                         resultSet.getString("birth_place"),
-                        resultSet.getString("birth_date"),
+                        resultSet.getDate("birth_date"),
                         resultSet.getString("gender")));
             } else {
                 break;

@@ -1,0 +1,13 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.enigma.model.Subject" table="subject">
+        <id name="id" column="id" type="int"/>
+        <property name="subjectName" column="subject_name" type="string"/>
+        <property name="sks" column="sks" type="int"/>
+    </class>
+
+</hibernate-mapping>
+

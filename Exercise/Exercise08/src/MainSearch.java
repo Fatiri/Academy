@@ -10,15 +10,13 @@ import java.util.List;
 public class MainSearch {
     public static void main(String[] args) throws IOException, SQLException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print(" Input untuk mencari = ");
+        System.out.print(" search by name = ");
         String searchStudents = bufferedReader.readLine();
 
         List<Student> students = StudentService.searchStudent(searchStudents);
-        System.out.println(students.toString());
-              {
-
+        for (Student studentss : students) {
+            System.out.println(studentss.toString());
         }
-
         }
     }
 
