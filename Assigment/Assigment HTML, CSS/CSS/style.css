@@ -1,0 +1,248 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+header.table {
+    border: #DEB887	;
+    border-style: solid;
+    background-image: linear-gradient(to bottom right, brown, yellow);
+    
+    border-radius: 5px;
+    padding: 0.01%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+body.table{
+    background-color:	#FAF0E6;
+}
+
+aside.table{
+    display: flex;
+    flex-flow: row;
+    border-radius: 5px;
+  
+    height: 400px;
+    padding-top: 1%;
+    padding-left: 1px;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div.divA{
+    
+    width: auto;
+    border-radius: 5px;
+    
+}
+ul.list{
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-image: linear-gradient(to bottom right, brown, yellow);
+    list-style-type: none;
+   
+}
+
+li:hover {
+    background-color:#8B4513;
+    border-radius: 5px;
+}
+
+li.a, .b{
+    font-family: Arial;
+    text-align: center;
+    padding: 2%;
+    height: 30px;
+    width: 190px;
+    border: 1px;
+    border-color:#CD853F;
+    border-style: solid;
+    position: block;
+    padding-top: 4px;
+    border-radius: 5px;
+    
+    
+}
+li.c {
+
+    font-family: Arial;
+    text-align: center;
+    padding: 2%;
+    height: 30px;
+    width: 190px;
+    border: 1px;
+    border-color:#CD853F;
+    border-style: solid;
+    position: block;
+    padding-top: 4px;
+    border-radius: 5px;
+  
+}
+
+div.tables{
+    border-color:brown;
+    border-radius: 10px;
+    margin-left: 5%;
+    width: 198%;
+    border: 1px;
+    height: auto;
+    border-style: solid;
+    border-style: none;
+    position: block;
+    text-align: center;
+    background-color:#FFEFD5;
+}
+table, tr, th, td{
+    margin-top: 1%;
+    border-radius: 5px;
+    margin-left: 1%;
+    width: 98%;
+    overflow: hidden;
+    border: 0px;
+    border-style: none;
+    position: block;
+    text-align: center;
+}
+
+tr{
+    width: 90px;
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+th, td {
+   
+    width: 82px;   
+    height: 25px;
+}
+th{
+    background-image: linear-gradient(to bottom right, brown, yellow);
+    
+}
+
+td{
+    background-color:#FFDEAD;
+}
+
+div.divregisterinput{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    padding: 2%;
+    position: relative;
+    margin-left: 2%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 130%;
+}
+aside.register{
+    text-align: center;
+    margin-left: 1%;
+    margin-bottom: 0;
+    
+}
+input, label{
+    margin-top: 1px;
+    border-radius: 2px;
+    position: relative;
+  
+    display: flex;
+    width: 60%;
+    
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-image: linear-gradient(to bottom right, brown, yellow);
+    color: white;
+    padding: 14px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 43%;
+  }
+  
+input[type=submit]:hover {
+    background-image: linear-gradient(to bottom right, brown, yellow);
+  }
+
+    img.imguser{
+        margin-left: 60px;
+    }
+
+body{
+    background-color: #FAF0E6;
+}
+
+aside.student{
+    
+    border-radius: 2px;
+    text-align: center;
+}
+div.studentss{
+    width: auto;
+    border:2px;
+    border-style: solid;
+    border-radius: 18px;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: auto;
+    text-align: center;
+}
+div.abc{
+    display: flex;
+    flex: 20px;
+    display: flex;
+    flex-flow: column;
+    border: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    background-image: linear-gradient(to bottom right, brown, yellow);
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2%;
+    
+    
+   
+}
+label.astudent, .bstudent, .cstudent, .dstudent {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    margin-left: 32%;
+}
+
+div.student4{
+    margin-bottom: 2%;
+}
+
+button.backs{
+    background-image: linear-gradient(to bottom right, brown, yellow);
+    width: 20%;
+    height: 30px;
+    border-radius: 20%;
+}
+
+
+
+
+
