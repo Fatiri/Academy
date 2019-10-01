@@ -79,8 +79,8 @@ public class Robot{
 
     public String print() {
         return "Coordinate & Direction Akhir Robot =  " +
-                "postX = " + postX +
-                ", postY = " + postY +
+                "X = " + postX +
+                ",Y = " + postY +
                 ", Direction Akhir = " + this.dir +
                 ", Batry = " + batry ;
     }

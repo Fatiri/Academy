@@ -3,12 +3,14 @@ div{
 }
 div.hass{
 text-align:center;
-background-color: background-image: linear-gradient(to bottom right, brown, yellow);
+    width: 300px;
+    background-image: linear-gradient(to bottom right, brown, yellow);
 }
-div.class{
+div.hasil{
+    text-align: center;
  border-radius: 5px;
  background-image: linear-gradient(to bottom right, brown, yellow);
- width = 50%;
+ width: 50%;
 }
 
 input, label{
@@ -40,7 +42,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
-    padding-left: 300px;
+    padding-left: 50%;
     text-align:center;
   }
 

@@ -25,9 +25,5 @@ public class RobotMove extends HttpServlet {
         String hasilAkhir = var2.print();
         req.setAttribute("hasil", hasilAkhir);
         req.getRequestDispatcher("/hasil/hasilnya.jsp").forward(req,resp);
-
-
     }
-
-
 }

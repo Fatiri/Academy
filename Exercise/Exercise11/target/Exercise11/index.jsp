@@ -10,13 +10,13 @@
  </div>
 <form action="positionRobot.php" methode="post">
 <label for="fname">Koordinat</label>
-    <input type="text" id="lname" name="inputCoordinat" placeholder="Input Kordinat Awal">
+    <input type="text" id="lnames" name="inputCoordinat" placeholder="Input Kordinat Awal (X,Y,Direction)">
 
-                <label for="fname">Bensin</label>
-                <input type="text" id="fname" name="inputBensin" placeholder="Input Bensin !">
+                <label for="fname">Batrai</label>
+                <input type="text" id="fname" name="inputBensin" placeholder="Input Batrai !">
 
                 <label for="lname">Direction</label>
-                <input type="text" id="lname" name="inputIntruksi" placeholder="Input Direksi">
+                <input type="text" id="lname" name="inputIntruksi" placeholder="Input Direction">
 
 
 <input type="submit"/>
