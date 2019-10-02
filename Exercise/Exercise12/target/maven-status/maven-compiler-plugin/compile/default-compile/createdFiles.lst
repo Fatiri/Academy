@@ -1,0 +1,7 @@
+com\enigma\StudentDetail.class
+com\enigma\config\HibernateConfigs.class
+com\enigma\StudentServletInput.class
+com\enigma\StudentServlet.class
+com\enigma\Input.class
+com\enigma\Dao\StudentDao.class
+com\enigma\model\Student.class

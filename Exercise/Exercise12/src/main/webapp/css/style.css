@@ -1,0 +1,28 @@
+
+table{
+    margin-top: 1%;
+    border-radius: 5px;
+    margin-left: 1%;
+    width: 98%;
+    overflow: hidden;
+    border: 0px;
+    border-style: none;
+    text-align: center;
+}
+
+tr{
+    width: 90px;
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+th, td {
+    width: 82px;
+    height: 25px;
+}
+th{
+    background-image: linear-gradient(to bottom right, brown, yellow);
+}
+
+td{
+    background-color:	#D2B48C;
+}

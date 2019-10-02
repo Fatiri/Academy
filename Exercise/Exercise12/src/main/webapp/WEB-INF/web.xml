@@ -1,0 +1,50 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>StudentTable</servlet-name>
+    <servlet-class>com.enigma.StudentServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>StudentDetail</servlet-name>
+    <servlet-class>com.enigma.StudentDetail</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>StudentInputServlet</servlet-name>
+    <servlet-class>com.enigma.StudentServletInput</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>StudentInput</servlet-name>
+    <servlet-class>com.enigma.Input</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>StudentTable</servlet-name>
+    <url-pattern>/student-table.pl</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>StudentDetail</servlet-name>
+    <url-pattern>/student-detail.pl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentInputServlet</servlet-name>
+    <url-pattern>/student-input.pl</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+
+    <servlet-name>StudentInput</servlet-name>
+    <url-pattern>/input.pl</url-pattern>
+  </servlet-mapping>
+</web-app>
