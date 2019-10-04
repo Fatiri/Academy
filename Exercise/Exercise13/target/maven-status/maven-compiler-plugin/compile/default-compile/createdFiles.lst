@@ -1,0 +1,8 @@
+com\enigma\controller\StudentController.class
+com\enigma\StudentDetail.class
+com\enigma\StudentInput.class
+com\enigma\config\HibernateConfigs.class
+com\enigma\dao\StudentDao.class
+com\enigma\Input.class
+com\enigma\StudentList.class
+com\enigma\model\Student.class

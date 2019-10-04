@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_4.xsd"
+         version="2.4">
+    
+    <display-name>SpringMvc</display-name>
+
+    <servlet>
+    <servlet-name>spring</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>StudentList</servlet-name>
+        <servlet-class>com.enigma.StudentList</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>StudentList</servlet-name>
+        <url-pattern>/studentList</url-pattern>
+    </servlet-mapping>
+
+</web-app>
