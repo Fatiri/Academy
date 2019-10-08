@@ -38,7 +38,7 @@ public class songController {
     @PostMapping("/save-song")
     public String songSave(@ModelAttribute("song") Song song, Model model){
       songRepository.save(song);
-       return "redirect:/song";
+      return "redirect:/song";
     }
 
     @GetMapping("/song-form")
@@ -48,6 +48,7 @@ public class songController {
 
         return new ModelAndView("song/song-form","songs", songs);
     }
+
 
 
 

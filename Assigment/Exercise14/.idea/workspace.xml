@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f62df4dc-6807-4630-a115-75c792e7116c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/java/com/enigma/controller/artistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/java/com/enigma/controller/artistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/java/com/enigma/controller/songController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/java/com/enigma/controller/songController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/artist/artis-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/artist/artis-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/artist/artist-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/artist/artist-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/song/song-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/song/song-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/song/song-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigment Artist &amp; Song/src/main/webapp/WEB-INF/views/song/song-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/java/com/enigma/controller/artistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/java/com/enigma/controller/artistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/java/com/enigma/controller/songController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/java/com/enigma/controller/songController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/artist/artis-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/artist/artis-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/artist/artist-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/artist/artist-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/song/song-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/song/song-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/song/song-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise14/src/main/webapp/WEB-INF/views/song/song-view.jsp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="XSLT Stylesheet" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RllRu9IAEORfB7z76Ms6rG0nie" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assigment Artist &amp; Song" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Academy\Exercise\Exercise14\src\main\resources\static.student" />
+      <recent name="E:\Academy\Exercise\Exercise14\src\main\resources\static" />
+      <recent name="E:\Academy\Exercise\Exercise14\src\main\resources\student" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.enigma" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Academy\Exercise\Exercise14\src\main\resources\static" />
+      <recent name="E:\Academy\Exercise\Exercise14\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Exercise14Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Assigment Artist &amp; Song" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.enigma.Exercise14Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f62df4dc-6807-4630-a115-75c792e7116c" name="Default Changelist" comment="" />
+      <created>1570249558987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570249558987</updated>
+      <workItem from="1570249561692" duration="9074000" />
+      <workItem from="1570362863447" duration="2955000" />
+      <workItem from="1570375112041" duration="642000" />
+      <workItem from="1570415676944" duration="41978000" />
+      <workItem from="1570497442186" duration="31991000" />
+      <workItem from="1570553332200" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

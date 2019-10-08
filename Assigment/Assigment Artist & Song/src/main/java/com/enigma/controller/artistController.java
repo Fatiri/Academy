@@ -41,7 +41,7 @@ public class artistController {
     public ModelAndView getById(@RequestParam Integer id, Model model){
 
         Artist artists = artistRepository.getOne(id);
-        model.addAttribute("artist", artists);
+
         return new ModelAndView("artist/artis-form","artist", artists);
     }
 }

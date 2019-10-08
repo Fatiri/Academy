@@ -38,14 +38,58 @@
     td{
         background-color:	#D2B48C;
     }
+    .button-container {
+        text-align: center;
+    }
+    a{
+        margin-left: 15px;
+
+    }
+    .button {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-image: linear-gradient(to bottom right, brown, yellow);
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+    }
+    .button:hover {
+        background: #434343;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px  rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+    }
+    div{
+        background-image: -webkit-linear-gradient(#8B4513,#cccccc);
+        padding: 10px;
+        border-radius: 7px;
+    }
+    div.conge{
+        background-image: -webkit-linear-gradient(#8B4513,#cccccc);
+        padding: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+        border-radius: 7px;
+    }
 
 </style>
 <head>
     <title>Title</title>
 </head>
 <body>
-<a href="add-form" ><button>duarr </button></a>
+<div class="conge">
+    <h1>Artist List</h1>
+</div>
+<div>
+    <a href="add-form"><input type="submit" class="button" value="Add Artist"></a>
+    <a href="/"><input type="submit" class="button" value="Home"></a>
 <br/>
+
 <table>
 <tr>
     <th>ID</th>
@@ -66,6 +110,8 @@
 </tr>
 
 </c:forEach>
+
 </table>
+</div>
 </body>
 </html>
