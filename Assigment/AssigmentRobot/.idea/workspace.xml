@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df45c99e-c938-4108-af89-7ef6d2e3db13" name="Default Changelist" comment="" />
+    <list default="true" id="df45c99e-c938-4108-af89-7ef6d2e3db13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/ERD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Normalisasi .xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Screenshot_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Total pembayaran yang sudah berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Total_pembayaran_yang_sudah_berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/mencari data siapa saja pelanggan yg mengambil paket  ke thailand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/mencari_data_siapa_saja_pelanggan_yg_mengambil_paket__ke_thailand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa saja yg belum berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa saja yg berangkat lebih dari dua minggu setelah tgl di booking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa_saja_yg_belum_berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa_saja_yg_berangkat_lebih_dari_dua_minggu_setelah_tgl_di_booking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/tugas SQL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise14/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise12/Exercise12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise12/src/main/java/com/enigma/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise12/src/main/java/com/enigma/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercise/Exercise13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercise/Exercise13/Exercise13.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +36,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1QvCr424zssfZuZYhDRKwDtJ9re" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -47,8 +68,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568641877709</updated>
+      <workItem from="1570676430210" duration="1369000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

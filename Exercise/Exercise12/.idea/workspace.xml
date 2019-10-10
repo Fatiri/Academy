@@ -6,7 +6,26 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3149b2d-bc0a-449e-b0f3-72fd73e9bf4b" name="Default Changelist" comment="" />
+    <list default="true" id="c3149b2d-bc0a-449e-b0f3-72fd73e9bf4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/ERD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Normalisasi .xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Screenshot_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Total pembayaran yang sudah berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/Total_pembayaran_yang_sudah_berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/mencari data siapa saja pelanggan yg mengambil paket  ke thailand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/mencari_data_siapa_saja_pelanggan_yg_mengambil_paket__ke_thailand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa saja yg belum berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa saja yg berangkat lebih dari dua minggu setelah tgl di booking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa_saja_yg_belum_berangkat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/siapa_saja_yg_berangkat_lebih_dari_dua_minggu_setelah_tgl_di_booking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigement SQL/tugas SQL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assigment/Exercise14/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enigma/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enigma/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise13/Exercise13.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +39,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,10 +58,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1RbyLkJFfwQSYUbzLsHsXwYmhkI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Exercise/simpleSpring" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -150,10 +174,25 @@
       <workItem from="1569984288765" duration="8749000" />
       <workItem from="1569995272425" duration="7510000" />
       <workItem from="1570011666574" duration="6124000" />
+      <workItem from="1570592210545" duration="402000" />
+      <workItem from="1570592681307" duration="133000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

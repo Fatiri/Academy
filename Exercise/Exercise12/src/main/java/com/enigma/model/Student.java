@@ -33,7 +33,6 @@ import java.util.Date;
             this.birthDate = birthDate;
             this.gender = gender;
 
-
         }
 
         public Integer getId() {
