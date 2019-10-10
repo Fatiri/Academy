@@ -5,6 +5,8 @@ import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
+import java.util.Objects;
+
 @Entity
 @Table(name = "mst_product")
 public class Product {
@@ -60,5 +62,20 @@ public class Product {
 
     public void deductQuantity(Integer quantity){
         this.quantity = this.quantity - quantity;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Product product = (Product) o;
+        return Objects.equals(id, product.id) &&
+                Objects.equals(name, product.name) &&
+                Objects.equals(quantity, product.quantity);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, quantity, price);
     }
 }

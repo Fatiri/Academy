@@ -15,8 +15,8 @@ public class Store {
     private String description;
     private String phoneNumber;
 
-//    public Store() {
-//    }
+    public Store() {
+    }
 
     public Store(String storeName, String address, String description, String phoneNumber) {
         this.storeName = storeName;
