@@ -31,5 +31,4 @@ public class StoreServiceImpl implements StoreService {
       return storeRepository.findAll();
     }
 
-
 }

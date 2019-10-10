@@ -36,7 +36,8 @@ public class ProductController {
         return productsService.getByName(name);
     }
 
-    @GetMapping("/products/{name}/h{quantity}")
+
+    @GetMapping("/products/{name}/{quantity}")
     public List<Product> getByNameAndQuantity(@PathVariable String name, @PathVariable Integer quantity){
         return productsService.getByNameAndQuantity(name,quantity);
     }

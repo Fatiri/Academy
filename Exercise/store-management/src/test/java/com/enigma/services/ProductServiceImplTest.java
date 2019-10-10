@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 import static org.junit.Assert.*;
 @RunWith(SpringRunner.class)
@@ -22,7 +23,7 @@ public class ProductServiceImplTest {
     @Autowired
     ProductRepository productRepository;
 
-    @Test
+    @Test //Unit test Adding Product
     public void product_addProduct_expected_added(){
         Product product = new Product("Sasuke Saringan",10, new BigDecimal(0));
         Product result = productService.addProduct(product);
@@ -31,7 +32,7 @@ public class ProductServiceImplTest {
 
     }
 
-    @Test
+    @Test //Unit test Get All Product
     public void product_getAllProduct_showing_whenSizeEquals_3(){
         Product product1 = new Product("Sasuke Saringan",10, BigDecimal.valueOf(0));
         Product product2 = new Product("Sasuke Suriken",10, BigDecimal.valueOf(0));
@@ -43,24 +44,66 @@ public class ProductServiceImplTest {
         assertEquals(3, productRepository.findAll().size());
     }
 
-    @Test
-    public void product_save_when_quantityReduced(){
+    @Test // Unit Test quantity product berkurang saat di beli
+    public void product_added_when_quantityReduced(){
         Integer quantity = 2;
-        Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(0));
-        Integer result = product.getQuantity()-quantity;
+        Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(1000));
+        Integer reduced = product.getQuantity()-quantity;
         product.deductQuantity(quantity);
-        Product fuck = productService.addProduct(product);
+        Product addProduct = productService.addProduct(product);
 
-        assertEquals(result,fuck.getQuantity());
+        assertEquals(reduced,addProduct.getQuantity());
+    }
+
+    @Test // Unitest Logika deduct jka stock quantity dibeli tidak boleh minus atau lebih kecil dari pesanan
+    public void product_Added_when_quantity_beHigher_thanPurchasing(){
+        Integer expected = 1;
+        Integer quantity =9;
+        Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(1000));
+        Product addingProduct = productService.addProduct(product);
+        Integer reduced = addingProduct.getQuantity()-quantity;
+        assertEquals(expected,reduced);
+    }
+
+    @Test // Unit Test Get price By Id
+    public void product_getPrice_expectedShowing_getById(){
+
+        Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(100));
+        Product result = productService.addProduct(product);
+        String getId = result.getId();
+        BigDecimal prices = productService.getId(getId).getPrice();
+        assertEquals(prices , result.getPrice());
+    }
+
+    @Test // Unit Test get Product By Id
+    public void product_getProduct_showing_when_getById(){
+        Product product = new Product("Sasuke Saringan",10, new BigDecimal(0));
+        productService.addProduct(product);
+        String getId = product.getId();
+        assertEquals(getId, product.getId());
+    }
+
+    @Test // Unitest Get Product By Name
+    public void product_getProduct_showing_when_getByName(){
+        Product product = new Product("Sasuke Saringan",10, new BigDecimal(0));
+        productService.addProduct(product);
+        String getname = "Sasuke Saringan";
+        assertEquals(getname, product.getName());
     }
 
     @Test
-    public void product_save_when_priceMultiplied_byQuantity(){
-        Product product1 = new Product("Sasuke Saringan",10, BigDecimal.valueOf(0));
-
+    public void product_getProduct_showing_when_getByName_and_getByquantity(){
+        Product product = new Product("SasukeSaringan",10, new BigDecimal(0));
+        Product product1 = new Product("Sisisu",10, new BigDecimal(0));
+        productService.addProduct(product);
+        productService.addProduct(product1);
+        String nameDb = product.getName();
+        Integer quantityDb = product.getQuantity();
+        String name = "sas";
+        Integer quantity = 10;
+        Product nameAndQuantity = (Product) productService.getByNameAndQuantity(name,quantity);
+        assertEquals(nameAndQuantity, productRepository.findAllByNameContainsAndQuantity(nameDb,quantityDb));
     }
-
-
 
 
 

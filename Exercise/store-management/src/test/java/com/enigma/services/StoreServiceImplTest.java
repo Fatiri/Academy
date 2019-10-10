@@ -1,5 +1,6 @@
 package com.enigma.services;
 
+import com.enigma.entities.Product;
 import com.enigma.entities.Store;
 import com.enigma.repositories.StoreRepository;
 import org.junit.Test;
@@ -9,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.awt.*;
+import java.math.BigDecimal;
 
 import static org.junit.Assert.*;
 @RunWith(SpringRunner.class)
@@ -43,7 +45,12 @@ public class StoreServiceImplTest {
 
     @Test
     public void store_productShow_when_getProduct_byId(){
-
+        Store store = new Store("Nao","Jalan Sunagaka","Jualan Celana","096783827");
+        Store store1 = new Store("Nao","Jalan Sunagaka","Jualan Celana","096783827");
+         storeRepository.save(store);
+         storeRepository.save(store1);
+         Integer getId = 1;
+        assertEquals(getId, store.getId());
     }
 
 }

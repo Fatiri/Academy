@@ -41,7 +41,7 @@ public class StoreControllerTest {
     }
 
     @Test
-    public void as() throws Exception {
+    public void  store_productShow_should_return_ResponeContent() throws Exception {
 
         ObjectMapper mapper = new ObjectMapper();
         Store store = new Store("Jajang","Jalan Konoha","Jualan Sarung","096783827");
@@ -53,6 +53,11 @@ public class StoreControllerTest {
          store = new ObjectMapper().readValue(response, Store.class);
 
         Assert.assertEquals(store, storeRepository.findById(store.getId()).get());
+    }
+
+    @Test
+    public void  Store_getAllProduct_should_true_whenSizeEquals_2(){
+
     }
 
 }
