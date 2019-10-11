@@ -18,14 +18,11 @@ public class PurchasedServiceImpl implements PurchasedService {
     @Override
     public void purchasing(Purchased purchased) {
 
-//               if (product.getQuantity()<=purchased.getQuantity()){
-//
-//                }else if(product.getQuantity()>=purchased.getQuantity()){
-            productService.deduct(purchased.getProductId(), purchased.getQuantity());
-            purchased.setPurchasePrice(productService.deductTotalPrice(purchased.getProductId()));
-            purchasedRepository.save(purchased);
-//        }
-        }
+        productService.deduct(purchased.getProductId(), purchased.getQuantity());
+        purchased.setPurchasePrice(productService.deductTotalPrice(purchased.getProductId()));
+        purchasedRepository.save(purchased);
+
+    }
 
     @Override
     public List<Purchased> getAllPurchase() {

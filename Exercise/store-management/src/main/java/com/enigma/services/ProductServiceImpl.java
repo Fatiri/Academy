@@ -15,6 +15,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Product addProduct(Product product) {
+
         productRepository.save(product);
 
         return product;
@@ -35,27 +36,27 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public void deduct(String id, Integer quantity) {
+
      Product product = getId(id);
+
      if (product.getQuantity()<quantity){
         throw  new InsufficientQuantityException();
      }
+
          product.deductQuantity(quantity);
          addProduct(product);
-
     }
 
     @Override
     public BigDecimal deductTotalPrice(String id) {
+
         return getId(id).getPrice();
     }
 
     @Override
     public List<Product> getByName(String name) {
+
         return productRepository.findAllByNameContains(name);
     }
 
-    @Override
-    public List<Product> getByNameAndQuantity(String name, Integer quantity) {
-        return productRepository.findAllByNameContainsAndQuantity(name,quantity);
-    }
 }

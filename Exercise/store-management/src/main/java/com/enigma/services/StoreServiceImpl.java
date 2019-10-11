@@ -31,4 +31,8 @@ public class StoreServiceImpl implements StoreService {
       return storeRepository.findAll();
     }
 
+    @Override
+    public void delletingStore(Integer id) {
+          storeRepository.deleteById(id);
+    }
 }

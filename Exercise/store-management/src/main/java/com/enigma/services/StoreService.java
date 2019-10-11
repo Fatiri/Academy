@@ -7,4 +7,5 @@ public interface StoreService {
     public Store save(Store store);
     public Store getStore(Integer id);
     List<Store> getAll();
+    public void delletingStore(Integer id);
 }

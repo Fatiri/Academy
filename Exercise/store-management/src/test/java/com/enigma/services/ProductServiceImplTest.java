@@ -5,6 +5,7 @@ import com.enigma.entities.Purchased;
 import com.enigma.repositories.ProductRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.omg.PortableInterceptor.INACTIVE;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -25,11 +26,12 @@ public class ProductServiceImplTest {
 
     @Test //Unit test Adding Product
     public void product_addProduct_expected_added(){
+
         Product product = new Product("Sasuke Saringan",10, new BigDecimal(0));
         Product result = productService.addProduct(product);
         Product added = productRepository.findById(result.getId()).get();
-        assertEquals(result, added);
 
+        assertEquals(result, added);
     }
 
     @Test //Unit test Get All Product
@@ -46,7 +48,7 @@ public class ProductServiceImplTest {
 
     @Test // Unit Test quantity product berkurang saat di beli
     public void product_added_when_quantityReduced(){
-        Integer quantity = 2;
+        Integer quantity = 11;
         Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(1000));
         Integer reduced = product.getQuantity()-quantity;
         product.deductQuantity(quantity);
@@ -57,52 +59,49 @@ public class ProductServiceImplTest {
 
     @Test // Unitest Logika deduct jka stock quantity dibeli tidak boleh minus atau lebih kecil dari pesanan
     public void product_Added_when_quantity_beHigher_thanPurchasing(){
-        Integer expected = 1;
-        Integer quantity =9;
+        Integer quantity = 11;
         Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(1000));
         Product addingProduct = productService.addProduct(product);
-        Integer reduced = addingProduct.getQuantity()-quantity;
-        assertEquals(expected,reduced);
+        String getId = addingProduct.getId();
+
+        assertTrue(quantity < productService.getId(getId).getQuantity());
     }
 
     @Test // Unit Test Get price By Id
     public void product_getPrice_expectedShowing_getById(){
 
-        Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(100));
+        Product product = new Product("Sasuke Saringan",10, BigDecimal.valueOf(100,00));
         Product result = productService.addProduct(product);
         String getId = result.getId();
-        BigDecimal prices = productService.getId(getId).getPrice();
-        assertEquals(prices , result.getPrice());
+        BigDecimal prices = result.getPrice();
+
+        assertEquals(prices ,productService.getId(getId).getPrice() );
     }
 
     @Test // Unit Test get Product By Id
     public void product_getProduct_showing_when_getById(){
+        Product expected = new Product("Sasuke Saringan",10, new BigDecimal(0));
         Product product = new Product("Sasuke Saringan",10, new BigDecimal(0));
         productService.addProduct(product);
         String getId = product.getId();
-        assertEquals(getId, product.getId());
+
+        assertEquals(expected, productRepository.findById(getId).get());
     }
 
     @Test // Unitest Get Product By Name
     public void product_getProduct_showing_when_getByName(){
         Product product = new Product("Sasuke Saringan",10, new BigDecimal(0));
-        productService.addProduct(product);
-        String getname = "Sasuke Saringan";
-        assertEquals(getname, product.getName());
-    }
-
-    @Test
-    public void product_getProduct_showing_when_getByName_and_getByquantity(){
-        Product product = new Product("SasukeSaringan",10, new BigDecimal(0));
-        Product product1 = new Product("Sisisu",10, new BigDecimal(0));
+        Product product1 = new Product("sokur Saringan",10, new BigDecimal(0));
+        Product product2 = new Product("sasuna Saringan",10, new BigDecimal(0));
+        Product product3 = new Product("Mona Saringan",10, new BigDecimal(0));
         productService.addProduct(product);
         productService.addProduct(product1);
-        String nameDb = product.getName();
-        Integer quantityDb = product.getQuantity();
-        String name = "sas";
-        Integer quantity = 10;
-        Product nameAndQuantity = (Product) productService.getByNameAndQuantity(name,quantity);
-        assertEquals(nameAndQuantity, productRepository.findAllByNameContainsAndQuantity(nameDb,quantityDb));
+        productService.addProduct(product2);
+        productService.addProduct(product3);
+        String getname = "lpo";
+        List<Product> products = productService.getByName(getname);
+
+        assertEquals(products, productRepository.findAllByNameContains(getname));
     }
 
 

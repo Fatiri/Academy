@@ -12,6 +12,5 @@ public interface ProductService {
     public void deduct(String id, Integer quantity);
     public BigDecimal deductTotalPrice(String id);
     public List<Product> getByName (String name);
-    public List<Product> getByNameAndQuantity (String name, Integer quantity);
 
 }

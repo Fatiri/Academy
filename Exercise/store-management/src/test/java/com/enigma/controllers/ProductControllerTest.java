@@ -3,6 +3,7 @@ package com.enigma.controllers;
 import com.enigma.entities.Product;
 import com.enigma.entities.Store;
 import com.enigma.repositories.ProductRepository;
+import com.enigma.services.ProductService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Assert;
@@ -19,6 +20,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -34,9 +36,17 @@ public class ProductControllerTest {
     @Autowired
     ProductRepository productRepository;
 
+    @Autowired
+    ProductService productService;
+
     @Test
     public void getByID() throws Exception {
-
+        Product product = new Product("Sasuke Saringan",10, new BigDecimal(0));
+        Product result = productService.addProduct(product);
+        String getId = result.getId();
+//        when(productRepository.findById(getId)).thenReturn();
+        mockMvc.perform(get("/todo/{id}", 1))
+                .andExpect(status().isOk());
     }
 
     @Test //Controller Add Product status
@@ -48,7 +58,7 @@ public class ProductControllerTest {
                 .content(mapper.writeValueAsString(product))).andExpect(status().isOk());
     }
 
-    @Test
+    @Test //Unitest Checking Controller Add Product status with get Id whether the data already exists
     public void  product_productShow_should_return_ResponeContent() throws Exception {
 
         ObjectMapper mapper = new ObjectMapper();

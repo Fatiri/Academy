@@ -71,7 +71,8 @@ public class Product {
         Product product = (Product) o;
         return Objects.equals(id, product.id) &&
                 Objects.equals(name, product.name) &&
-                Objects.equals(quantity, product.quantity);
+                Objects.equals(quantity, product.quantity) &&
+                Objects.equals(price, product.price);
     }
 
     @Override

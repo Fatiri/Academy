@@ -27,4 +27,9 @@ public class StoreController {
     public List<Store> getAll(){
         return storeService.getAll();
      }
+
+     @PostMapping("/delete/{id}")
+    public void deleteStoreById(@PathVariable Integer id){
+         storeService.delletingStore(id);
+     }
 }
