@@ -1,5 +1,6 @@
 package com.enigma.services;
 import com.enigma.entities.Product;
+import com.enigma.entities.Store;
 import com.enigma.exception.InsufficientQuantityException;
 import com.enigma.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,9 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     ProductRepository productRepository;
+
+    @Autowired
+    StoreService storeService;
 
     @Override
     public Product addProduct(Product product) {
@@ -59,4 +63,16 @@ public class ProductServiceImpl implements ProductService {
         return productRepository.findAllByNameContains(name);
     }
 
+    @Override
+    public List<Product> getProductByStoreId(Integer id) {
+        Store store = storeService.getStore(id);
+        return store.getProducts();
+    }
+
+    @Override
+    public Product save(Product product) {
+        Store store = Product.getStore();
+        product.setStore(store);
+        return productRepository.save(product);
+    }
 }

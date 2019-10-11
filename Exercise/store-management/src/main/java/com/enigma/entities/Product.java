@@ -1,4 +1,5 @@
 package com.enigma.entities;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sun.istack.NotNull;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
@@ -10,6 +11,8 @@ import java.util.Objects;
 @Entity
 @Table(name = "mst_product")
 public class Product {
+
+
     @Id
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name ="system-uuid",strategy = "uuid")
@@ -18,6 +21,10 @@ public class Product {
 
     private Integer quantity;
     private BigDecimal price;
+    @ManyToOne
+    @JoinColumn(name = "store_id")
+    @Transient
+    private static Store store;
 
     public Product() {
     }
@@ -64,6 +71,14 @@ public class Product {
         this.quantity = this.quantity - quantity;
     }
 
+    public static Store getStore() {
+        return store;
+    }
+
+    public void setStore(Store store) {
+        this.store = store;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -79,4 +94,6 @@ public class Product {
     public int hashCode() {
         return Objects.hash(id, name, quantity, price);
     }
+
+
 }
